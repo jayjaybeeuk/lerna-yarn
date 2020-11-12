@@ -1,7 +1,8 @@
 # Yarn Workspaces with Lerna
 
-based on this article https://leerob.io/blog/monorepo-lerna-yarn-workspaces
+Lerna is not obsolete now that this can be handled much easier with workspaces.
 
+Lerna still comes in handy whenever you actually want to do something with your packages. Be it publishing them, running test or any other arbitrary scripts over them. You name it. Lerna actually ties in really well with yarn
 
 ## Installation
 
@@ -62,16 +63,20 @@ If we wanted to release our packages to NPM, we would use npx lerna publish inst
 lerna publish
 ```
 
-
 ## Contributing
 
 TBC
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
 
-
-
 Futher reading
+https://leerob.io/blog/monorepo-lerna-yarn-workspaces
 https://leerob.io/blog/ui-component-library-with-styled-components
 https://yarnpkg.com/blog/2017/08/02/introducing-workspaces/
+https://planflow.dev/blog/what-is-a-yarn-workspace
+https://www.devbridge.com/articles/a-step-by-step-build-to-build-a-sharable-components-library/
+https://docs.npmjs.com/creating-and-publishing-private-packages
+https://www.julianburr.de/til/lerna-and-yarn-workspaces/
+https://medium.com/ah-technology/a-guide-through-the-wild-wild-west-of-setting-up-a-mono-repo-with-typescript-lerna-and-yarn-ed6a1e5467a
